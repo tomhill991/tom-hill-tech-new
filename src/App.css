@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+.header-color {
+  background: #f12711;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.landing-grid {
+ background: #f12711;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to left, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to left, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ text-align: center;
+ height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar-img {
+  height: 250px;
+  border-radius: 50%;
+  padding-top: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+  text-align: center;
+}
+
+.social-links i:hover {
+  color: #e0dbdb;
+}
+
+@media only screen and (max-width: 824px) {
+  .banner-text {
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+  .social-links {
+    width: 60%;
+  }
+
+  .banner-text h1 {
+    font-size: 58px;
+  }
+}
+
+@media only screen and (max-width: 671px) {
+  .banner-text {
+    width: 95%;
+  }
+   .social-links {
+    width: 80%;
+  }
+  .social-links i {
+    font-size: 4em;
+  }
+}
+
+.contact-body {
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 75%;
+  height: 100vh;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-avatar {
+  height: 250px;
+  border-radius: 5px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-text {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  width: 60%;
+  margin: auto;
+  padding-top: 1em;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  padding-right: 1rem;
+}
+
+.contact-list {
+  padding-left: 100px;
+}
+
+li.mdl-list__item.contact-list-item {
+  padding: 0;
+  font-size: 25px;
+  font-family:'Anton', sans-serif;
+}
+
+.resume-right-col {
+  background: #27221f;
+  color: white;
+}
+
+a.projects-button {
+  background: transparent;
+  border: none;
+  border-radius: 2px;
+  color: #000;
+  position: relative;
+  height: 36px;
+  margin: 0;
+  min-width: 64px;
+  padding: 0 16px;
+  display: inline-block;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0;
+  overflow: hidden;
+  will-change: box-shadow;
+  transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  line-height: 36px;
+  vertical-align: middle;
+}
+
+a.projects-button:hover {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+@media only screen and (max-width: 1180px) {
+  .contact-list {
+    padding-left: 29px;
+  }
+   .contact-text {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .contact-list {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 824px) {
+  .contact-body {
+    position: static;
+  }
+}
+
+@media (max-width: 479px) {
+  .contact-grid {
+    padding: 0;
   }
 }
