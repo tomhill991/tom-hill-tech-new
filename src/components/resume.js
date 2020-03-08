@@ -84,7 +84,7 @@ class Resume extends Component {
               startYear={2016}
               endYear={2019}
               companyName="Language Link"
-              jobTitle="Director of Business Development, HR Director, Head of Recruitment"
+              jobTitle="Director of Business Development, Head of Recruitment"
               jobDescription="I drove the sales and marketing for the rebirth of Language Link’s flagship school in Beijing. I also recruited all foreign teachers and management. Duties included: sourcing new revenue streams negotiating with customers and stakeholders, screening candidates, coordinating with internal and external stakeholders, posting job advertisements, negotiating with candidates and internal stakeholders, inducting and onboarding new staff, drafting contracts, and advising on, and dealing with, employee relations issues."
               achievement1="sourced new revenue streams such as; partnerships for a summer camp, investors for rebirth of school, partnerships with local businesses."
               achievement2="recruited 75% more students for relaunch of school."
@@ -97,7 +97,7 @@ class Resume extends Component {
                 startYear={2014}
                 endYear={2015}
                 companyName="Thomson Reuters"
-                jobTitle="HR Administrator, HR Assistant"
+                jobTitle="HR Assistant"
                 jobDescription="I worked in the HR department of Thomson Reuters UK & Ireland. Duties included: assisting and advising managers in employee relations disputes, onboarding new employees (from offer to induction), drafting and amending contracts, updating and amending employee information in Workday (the HR management system), coordinating with HR teams across time zones and in other divisions, answering and resolving queries on benefits and contractual obligations."
                 achievement1="discussed and implemented broad HR policy changes across the UK & Ireland divisions, which had approximately 5000 employees. This involved extensive collaboration with internal stakeholders."
                 achievement2="being offered a permanent contract, following an initial 3-month FTC."

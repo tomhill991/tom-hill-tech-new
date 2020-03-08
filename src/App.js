@@ -3,7 +3,7 @@ import './App.css';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-import { Link, BrowserRouter as Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Main from './components/main';
 
 function App() {
@@ -11,7 +11,6 @@ function App() {
    <div className="demo-big-content">
  {/* links are from react-router-dom and Navigation is from react-mdl*/}
       <Layout>
-        <Router>
           <Header className="header-color" title="MY PORTFOLIO" scroll>
               <Navigation>
                 <Link to="/">Home</Link>
@@ -32,9 +31,8 @@ function App() {
               <div className="page-content" />
               <Main/>
           </Content>
-          </Router>
       </Layout>
-</div>
+    </div>
   );
 }
 
